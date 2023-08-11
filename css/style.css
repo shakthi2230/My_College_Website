@@ -1,0 +1,75 @@
+.collegelogo{
+    text-align: center;
+}
+body, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    
+    background-color: #4ab8d3;
+    color: #fff;
+    padding: 11px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+  }
+  
+  /* Dropdown styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width:max-content;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #d4350d;
+  }
+  
+  .dropdown-content li {
+    margin: 0;
+  }
+  
+  .dropdown-content a {
+    padding:20px;
+    color: #fff;
+    text-align: left;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #0dacd4;
+  }
+  .dropdown a:hover {
+    background-color: #d4350d;
+  }
+  /* footer styles */
+footer{
+    background-color:  #939795;
+    display: flex;
+    list-style: none;
+    
+    justify-content: space-around;
+    
+}
