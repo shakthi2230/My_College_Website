@@ -1,9 +1,28 @@
-.collegelogo{
-    text-align: center;
+a {
+    text-decoration: none;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 1%;
+    left: 82%;
+    background-color: #4ab8d3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px;
+  }
+
 body, ul, li {
     margin: 0;
     padding: 0;
+    
   }
   
   nav {
@@ -66,10 +85,23 @@ body, ul, li {
   }
   /* footer styles */
 footer{
-    background-color:  #939795;
-    display: flex;
-    list-style: none;
-    
-    justify-content: space-around;
+    background-color:rgb(211, 223, 216);
+    width:100%;
+    margin: 0 auto;
+    padding: 15px 0px 10px 0px;
+    overflow: hidden;
     
 }
+footer div{
+    text-align:center;
+}
+footer div a{
+    color:#828282;
+}
+footer div a:hover{
+    color: #d4350d;
+}
+.footercontent{
+    color:#828282;
+}
+
