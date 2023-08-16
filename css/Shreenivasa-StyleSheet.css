@@ -1,9 +1,11 @@
-/* CSS Document for Shreenivasa Engineering College */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 body {
     margin: 0 auto;
     padding: 0px;
-    font-family: "Verdana", Helvetica, Sans-Serif;
+    /* font-family: "Verdana", Helvetica, Sans-Serif; */
+    font-family:'Roboto', sans-serif;
     font-size: 12px;
     text-decoration: none;
 }
@@ -191,7 +193,7 @@ a.list-group-item:hover {
     width: 1000px;
     height: 100px;
     margin: 0 auto;
-    background: url(images/header.jpg) no-repeat;
+    background: url(assets/header.jpg) no-repeat;
 }
 
 #header_left {
